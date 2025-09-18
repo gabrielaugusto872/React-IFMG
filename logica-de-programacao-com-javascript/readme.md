@@ -1,4 +1,16 @@
-## Módulo 1 - Lógica de Programação de JavaScript
+# Módulo 1 - Lógica de Programação de JavaScript
 
-- [Teoria](teoria/readme.md)
-- [Exercícios](exercicios/readme.md)
+### Teoria
+#### Pilares do Pensamento Computacional
+> Passos que devem ser seguidos para a resolução de um problema em computação
+
+#### Descrição Narrativa
+  Descrever o passo a passo de uma das resoluções do problema
+
+### Fluxograma
+  Criar fluxogramas com o caminho a ser seguido pelo programa
+
+### Pseudocódigo
+  Um esboço do código a ser construido
+
+### [Exercícios](exercicios/readme.md)
