@@ -1,11 +1,11 @@
 ## Pilares do Pensamento Computacional
 > Passos que devem ser seguidos para a resolução de um problema em computação
 
-- Descrição Narrativa
+- ## Descrição Narrativa
   Descrever o passo a passo de uma das resoluções do problema
 
-- Fluxograma
+- ## Fluxograma
   Criar fluxogramas com o caminho a ser seguido pelo programa
 
-- Pseudocódigo
+- ## Pseudocódigo
   Um esboço do código a ser construido
