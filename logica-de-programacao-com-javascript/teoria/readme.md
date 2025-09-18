@@ -2,4 +2,4 @@
 ### Aula 01 (18/09)
 
 - ### Introdução
-  [Pilares do Pensamento Computacional](teoria/pilares-do-pensamento-computacional)
+  [Pilares do Pensamento Computacional](pilares-do-pensamento-computacional/readme.md)
