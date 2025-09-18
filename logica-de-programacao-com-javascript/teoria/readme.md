@@ -3,6 +3,3 @@
 
 - ### Introdução
   [Pilares do Pensamento Computacional](teoria/pilares-do-pensamento-computacional)
- Descrição Narrativa
- Fluxograma
- Pseudocódigo
