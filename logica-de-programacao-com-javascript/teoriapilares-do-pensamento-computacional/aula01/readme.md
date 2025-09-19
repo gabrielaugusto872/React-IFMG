@@ -1,4 +1,4 @@
-# Módulo 1 - Lógica de Programação de JavaScript
+## Aula 01 - 19/09
 
 ### Teoria
 #### Pilares do Pensamento Computacional
@@ -13,4 +13,6 @@
 ### Pseudocódigo
   Um esboço do código a ser construido
 
-### [Exercícios](exercicios/readme.md)
+### Exercícios
+
+
