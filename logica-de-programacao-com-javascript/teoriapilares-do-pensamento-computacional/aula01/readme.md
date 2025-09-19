@@ -1,4 +1,4 @@
-## Aula 01 - 19/09
+## Aula 01 - 18/09
 
 ### Teoria
 #### Pilares do Pensamento Computacional
