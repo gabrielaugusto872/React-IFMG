@@ -1,0 +1,7 @@
+console.log(10 == "10")
+console.log(10 === "10")
+console.log(13 != "13")
+console.log(13 != "189")
+console.log(13 !== "13")
+console.log(13 > 5)
+console.log(13 < 5)
