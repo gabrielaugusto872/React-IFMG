@@ -7,9 +7,6 @@ let opcao
 let escolhaComputador = opcoes[Math.floor(Math.random() * opcoes.length)];
 
 do {
-    console.log("1- Pedra")
-    console.log("2- Papel")
-    console.log("3- Tesoura")
     console.log("0- Sair")
     opcao = Number(prompt("Escolha:"))
 
