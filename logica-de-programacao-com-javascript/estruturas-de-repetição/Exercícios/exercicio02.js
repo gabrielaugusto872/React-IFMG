@@ -15,12 +15,12 @@ do {
 
         console.log("Empate")
         empates += 1;
-    } else if((opcao === 1 && escolhaComputador === "tesoura") || (opcao === 2 && escolhaComputador === "pedra") || (opcao === 3 && escolhaComputador === "papel")){
+    } else if((opcao === "pedra" && escolhaComputador === "tesoura") || (opcao === "papel" && escolhaComputador === "pedra") || (opcao === "tesoura" && escolhaComputador === "papel")){
         console.log(`Computador escolheu: ${escolhaComputador}`);
 
         console.log("Vitória")
         vitorias += 1;
-    } else if((opcao === 2 && escolhaComputador === "tesoura") || (opcao === 3 && escolhaComputador === "pedra") || (opcao === 1 && escolhaComputador === "papel")){
+    } else if((opcao === "papel" && escolhaComputador === "tesoura") || (opcao === "tesoura" && escolhaComputador0 === "pedra") || (opcao === "pedra" && escolhaComputador === "papel")){
         console.log(`Computador escolheu: ${escolhaComputador}`);
 
         console.log("Derrota")
