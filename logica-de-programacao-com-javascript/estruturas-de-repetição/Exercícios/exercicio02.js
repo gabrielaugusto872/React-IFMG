@@ -20,7 +20,7 @@ do {
 
         console.log("Vitória")
         vitorias += 1;
-    } else if((opcao === "papel" && escolhaComputador === "tesoura") || (opcao === "tesoura" && escolhaComputador0 === "pedra") || (opcao === "pedra" && escolhaComputador === "papel")){
+    } else if((opcao === "papel" && escolhaComputador === "tesoura") || (opcao === "tesoura" && escolhaComputador === "pedra") || (opcao === "pedra" && escolhaComputador === "papel")){
         console.log(`Computador escolheu: ${escolhaComputador}`);
 
         console.log("Derrota")
