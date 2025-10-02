@@ -8,7 +8,7 @@ let escolhaComputador = opcoes[Math.floor(Math.random() * opcoes.length)];
 
 do {
     console.log("0- Sair")
-    opcao = Number(prompt("Escolha:"))
+    opcao = prompt("Escolha:")
 
     if(opcao === escolhaComputador){
         console.log(`Computador escolheu: ${escolhaComputador}`);
