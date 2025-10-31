@@ -6,7 +6,7 @@
 [Códigos](codigos/readme.md)
 #### Exercicios
 [Exercício](codigos/ExerciciosAula02/readme.md)
-- [Arquivo Index](codigos/ExerciciosAula02/index.html)
+- [Arquivo Index](codigos/ExercíciosAula02/index.html)
 - [Exercício 1](exercicio01.js)
 - [Exercício 2](exercicio02.js)
 - [Exercício 3](exercicio03.js)
