@@ -1,10 +1,13 @@
 # Aula 04 - 26/09
 
-## Teoria
+### Códigos
 
-### 
+#### Exercicios
 
-### Boas Práticas
+- [Arquivo Index](Exercícios/index.html)
+- [Exercício 1](Exercícios/exercicio01.js)
+- [Exercício 2](Exercícios/exercicio02.js)
 
-
-### Exercícios
+#### Desafios
+- [Desafio 1](Exercícios/desafio01.js)
+- [Desafio 2](Exercícios/desafio02.js)
