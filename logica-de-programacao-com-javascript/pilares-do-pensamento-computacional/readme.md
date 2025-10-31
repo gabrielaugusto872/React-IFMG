@@ -12,7 +12,3 @@
 
 ### Pseudocódigo
   Um esboço do código a ser construido
-
-### Exercícios
-
-
