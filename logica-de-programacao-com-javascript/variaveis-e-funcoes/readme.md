@@ -3,9 +3,13 @@
 ### Teoria
 
 ### Códigos
-[Códigos](codigos/readme.md)
+
+- [Arquivo Index](codigos/index.html)
+- [Pratica Feita na Aula](codigos/script.js)
+- [Atividades Feitas na aula](codigos/exercicios.js)
+
 #### Exercicios
-[Exercício](codigos/ExerciciosAula02/readme.md)
+
 - [Arquivo Index](codigos/ExercíciosAula02/index.html)
 - [Exercício 1](exercicio01.js)
 - [Exercício 2](exercicio02.js)
