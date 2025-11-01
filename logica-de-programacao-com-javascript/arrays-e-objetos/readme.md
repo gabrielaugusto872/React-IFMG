@@ -12,5 +12,5 @@
 
 ##### Catálogo de Itens
 
-- [Arquivo Index](exercícios/index.html)
-- [Catálogo](exercícios/script.js)
+- [Arquivo Index](exercicios/index.html)
+- [Catálogo](exercicios/script.js)
