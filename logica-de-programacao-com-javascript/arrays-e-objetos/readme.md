@@ -8,7 +8,7 @@
 #### Exercicios
 ##### Gerenciador de Tarefas
 - [Arquivo Index](codigos/exercicios/index.html)
-- [Tarefas](codigos/exercicios/exercicio01.js)
+- [Tarefas](codigos/exercicios/gerenciador.js)
 
 ##### Catálogo de Itens
 
