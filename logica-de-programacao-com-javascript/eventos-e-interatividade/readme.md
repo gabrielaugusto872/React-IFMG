@@ -1,4 +1,4 @@
-# Aula 07 - 02/10
+# Aula 07 - 02/10 (Arrumar Este Readme)
 
 ### Códigos
 
