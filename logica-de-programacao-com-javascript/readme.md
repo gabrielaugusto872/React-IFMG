@@ -16,7 +16,7 @@
 - [Aula 11 - Arquitetura da Informação e Wireframes](arquitetura-da-informacao-e-wireframes/readme.md)
 - [Aula 12 - Acessibilidade na Web](acessibilidade-na-web/readme.md)
 - [Aula 13 - Validação de Protótipos e Testes de Usabilidade](validacao-e-testes-de-usabilidade/readme.md)
-- [Aula 15 - Fundamentos de Programação Orientada a Objetos](fundamentos-de-programacao-orientada-a-objetos/readme.md)
+- [Aula 15 - Fundamentos de Programação Orientada a Objetos](fundamentos-de-programação-orientada-a-objetos/readme.md)
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)
