@@ -13,9 +13,10 @@
 - [Aula 09 - Introdução ao Design Centrado no Usuário](introdução-ao-design-centrado-no-usuario/readme.md)
 - [Aula 10 - Heurísticas de Usabilidade de Nielsen](heuristicas-de-usabilidade/readme.md)
 
-- [Aula 11 - Arquitetura da Informação e Wireframes](/readme.md)
-- [Aula 12 - Acessibilidade na Web](/readme.md)
-- [Aula 13 - Validação de Protótipos e Testes de Usabilidade](/readme.md)
+- [Aula 11 - Arquitetura da Informação e Wireframes](arquitetura-da-informacao-e-wireframes/readme.md)
+- [Aula 12 - Acessibilidade na Web](acessibilidade-na-web/readme.md)
+- [Aula 13 - Validação de Protótipos e Testes de Usabilidade](validacao-e-testes-de-usabilidade/readme.md)
+- [Aula 15 - Fundamentos de Programação Orientada a Objetos](fundamentos-de-programacao-orientada-a-objetos/readme.md)
 
 ## Módulo 08 - Git
-- [Aula 46 - Introdução ao Git e Controle de Versão](/readme.md)
+- [Aula 46 - Introdução ao Git e Controle de Versão](introducao-ao-git/readme.md)
