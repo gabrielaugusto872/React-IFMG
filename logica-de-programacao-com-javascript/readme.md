@@ -19,4 +19,4 @@
 - [Aula 15 - Fundamentos de Programação Orientada a Objetos](fundamentos-de-programacao-orientada-a-objetos/readme.md)
 
 ## Módulo 08 - Git
-- [Aula 46 - Introdução ao Git e Controle de Versão](introducao-ao-git/readme.md)
+- [Aula 46 - Introdução ao Git e Controle de Versão](introduço-ao-git/readme.md)
