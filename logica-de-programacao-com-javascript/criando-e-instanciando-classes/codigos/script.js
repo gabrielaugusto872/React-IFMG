@@ -4,9 +4,12 @@ class Pessoa {
         this.idade = idade;
     }
     apresentar(){
-        console.log("Olá, meu nome é " + this.nome);
+        console.log("Olá, meu nome é " + this.nome + " e tenho " + this.idade + " anos.");
     }
 };
 
-let novaPessoa = new Pessoa("Gabriel", 22);
-novaPessoa.apresentar();
+let p1 = new Pessoa("Ana", 30);
+let p2 = new Pessoa("Bia", 40);
+
+p1.apresentar();
+p2.apresentar();
