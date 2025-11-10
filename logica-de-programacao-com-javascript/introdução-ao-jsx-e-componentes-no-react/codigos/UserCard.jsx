@@ -4,7 +4,7 @@ function UserCard(){
     let anoNascimento;
     let profissao;
 
-    function limparCampos() {
+    function envia() {
         nome = document.getElementById("nome").value;
         idade = document.getElementById("idade").value;
         anoNascimento = document.getElementById("nascimento").value;
@@ -38,14 +38,7 @@ function UserCard(){
         <p></p>
         <input type="text" id="profissao" placeholder="Digite a profissão..."></input>
         <p></p>
-        <button onClick={limparCampos}>Clique aqui para enviar!</button>
-        <p id="resultado"></p>
-
-
-        
-
-
-        
+        <button onClick={envia}>Clique aqui para enviar!</button>
         </>
     );
 }
