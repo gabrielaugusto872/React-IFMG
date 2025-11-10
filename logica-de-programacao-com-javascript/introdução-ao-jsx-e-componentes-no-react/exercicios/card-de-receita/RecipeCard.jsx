@@ -72,12 +72,6 @@ function RecipeCard(){
             <h2>Modo de Preparo</h2>
             <p>{boloDeCenoura.preparo}</p>
         </div>
-           
-
         </>
     )
-
-
-
-
 } ReactDOM.render(<RecipeCard/>, document.getElementById("root"));
