@@ -15,4 +15,4 @@
 #### Card de Receita
 
 - [Arquivo Index](exercicios/card-de-receita/index.html)
-- [Script](exercicios/card-de-receita/)
+- [Script](exercicios/card-de-receita/RecipeCard.jsx)
