@@ -1,11 +1,10 @@
 let animais = [];
 
 class Animal{
-    #nome; #patas;
+    #nome;
 
-    constructor(nome, patas){
+    constructor(nome){
         this.#nome = nome;
-        this.#patas = patas;
     }
 
     emitirSom(){
@@ -15,17 +14,12 @@ class Animal{
     get nome(){
         return this.#nome;
     }
-
-    get patas(){
-        return this.#patas;
-    }
-
    
 }
 
 class Cachorro extends Animal{
-    constructor(nome, patas){
-        super(nome, patas);
+    constructor(nome){
+        super(nome);
     }
 
     emitirSom(){
@@ -34,8 +28,8 @@ class Cachorro extends Animal{
 }
 
 class Gato extends Animal{
-    constructor(nome, patas){
-        super(nome, patas);
+    constructor(nome){
+        super(nome);
     }
 
     emitirSom(){
@@ -44,8 +38,8 @@ class Gato extends Animal{
 }
 
 class Passaro extends Animal{
-    constructor(nome, patas){
-        super(nome, patas);
+    constructor(nome){
+        super(nome);
     }
 
     emitirSom(){
@@ -55,6 +49,7 @@ class Passaro extends Animal{
 
 function cadastrar(a){
     animais.push(a);
+    console.log(`${a.nome} cadastrado`)
 }
 
 function listar(){
@@ -69,25 +64,45 @@ function listarSons(){
     }
 }
 
+function menuCadastro(){
+    let tipo = prompt("Qual o tipo do seu animal?");
+    let nome = prompt(`Qual o nome do seu ${tipo}?`)
+    
+    if(tipo.toLowerCase() === "cachorro"){
+        let a = new Cachorro(nome);
+        cadastrar(a);
+    } else if(tipo.toLowerCase() === "gato"){
+        let a = new Gato(nome);
+        cadastrar(a);
+    } else if(tipo.toLowerCase() === "passaro"){
+        let a = new Passaro(nome);
+        cadastrar(a);
+    }
+}
 
+function menu(opcao){
+    switch(opcao){
+        case 1:
+            menuCadastro();
+            break;
+        case 2:
+            listar();
+            break;
+        case 3:
+            listarSons();
+        default:
+            break;
+    }
+}
 
-let a1 = new Cachorro("Kleimor", 4);
-console.log(a1.nome);
-a1.emitirSom();
+let entrada = -1;
 
-let a2 = new Gato("Todou", 4);
-console.log(a2.nome);
-a2.emitirSom();
+while (entrada !== 0){
+    entrada = Number(prompt("Digite a opção desejada: "));
 
-let a3 = new Passaro("Jorge", 2);
-console.log(a3.nome);
-a3.emitirSom();
+    if (entrada === 0){
+        break;
+    }
 
-cadastrar(a1);
-
-
-
-console.log(animais);
-listar();
-listarSons();
-
+    menu(entrada);
+}

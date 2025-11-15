@@ -3,9 +3,10 @@
 ### Códigos
 
 - [Arquivo Index](codigos/index.html)
-- [Script](codigos/script.js)
-- [Exercício Feito em Sala](codigos/???.js)
+- [Exercício Feito em sala (Somente JavaScript)](codigos/animais.js)
+- [Exercício Feito em Sala (Feito com JSX)](codigos/Animais.jsx)
 
 <!-- ### Exercícios -->
 
 
+ 

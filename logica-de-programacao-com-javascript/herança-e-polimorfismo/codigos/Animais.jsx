@@ -1,79 +1,115 @@
+let animais = [];
+
 function Animais(){
-    let animais = [];
+    
 
     class Animal{
-        #nome; #patas;
+        #nome;
 
-        constructor(nome, patas){
+        constructor(nome){
             this.#nome = nome;
-            this.#patas = patas;
         }
 
         emitirSom(){
-            console.log("Som genérico");
+            return "Som genérico";
         }
 
         get nome(){
             return this.#nome;
         }
+    
     }
 
     class Cachorro extends Animal{
-        constructor(nome, patas){
-            super(nome, patas);
+        constructor(nome){
+            super(nome);
         }
 
         emitirSom(){
-            console.log("Au Au...")
+            return "Au Au...";
         }
     }
 
     class Gato extends Animal{
-        constructor(nome, patas){
-            super(nome, patas);
+        constructor(nome){
+            super(nome);
         }
 
         emitirSom(){
-            console.log("Miau...")
+            return "Miau...";
         }
     }
 
     class Passaro extends Animal{
-        constructor(nome, patas){
-            super(nome, patas);
+        constructor(nome){
+            super(nome);
         }
 
         emitirSom(){
-            console.log("Fiu Fiu Fiu...")
+            return "Fiu Fiu Fiu...";
         }
     }
 
+    function cadastrar(a){
+        animais.push(a);
+        console.log(`${a.nome} cadastrado`)
+    }
 
+    function listar(){
+        ReactDOM.render(<>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                border: "2px solid black",
+                borderRadius: "10px",
+                padding: "20px",
+                width: "300px",
+                textAlign: "center",
+                margin: "20px auto",
+                boxShadow: "0 4px 10px rgba(0,0,0,0.2)"
+            }}>
+                <h1>Animais Cadastrados</h1>
+                <ul>
+                    {
+                        animais.map((animal, indice) =>(
+                            <li key={indice}>{animal.nome}({animal.constructor.name})</li>
+                        ))
+                    }
+                </ul>
+                <button id="volta" onClick={() => ReactDOM.render(<Animais/>, document.getElementById("root"))}>Voltar</button>
+            </div>
+            </>, document.getElementById("root"));
+    }
 
-    let a1 = new Cachorro("Kleimor", 4);
-    console.log(a1.nome);
-    a1.emitirSom();
+    function listarSons(){
+        ReactDOM.render(<>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                border: "2px solid black",
+                borderRadius: "10px",
+                padding: "20px",
+                width: "300px",
+                textAlign: "center",
+                margin: "20px auto",
+                boxShadow: "0 4px 10px rgba(0,0,0,0.2)"
+            }}>
+                <h1>Lista de Sons</h1>
+                <ul>
+                    {
+                        animais.map((animal, indice) =>(
+                            <li key={indice}>{animal.emitirSom()}({animal.nome})</li>
+                        ))
+                    }
+                </ul>
+                <button id="volta" onClick={() => ReactDOM.render(<Animais/>, document.getElementById("root"))}>Voltar</button>
+            </div>
+            </>, document.getElementById("root"));
+    }
 
-    let a2 = new Gato("Todou", 4);
-    console.log(a2.nome);
-    a2.emitirSom();
-
-    let a3 = new Passaro("Jorge", 2);
-    console.log(a3.nome);
-    a3.emitirSom();
-
-
-
-
-
-
-
-
-
-    function cadastrar(){// Cadastrando via código ainda
-        animais = {
-            nome
-        }
+    function menuCadastro(){
         ReactDOM.render(<>
             <div style={{
                 display: "flex",
@@ -88,42 +124,44 @@ function Animais(){
                 boxShadow: "0 4px 10px rgba(0,0,0,0.2)"
             }}>
                 <h1>Cadastro</h1>
-                <p>(Animais pré-definidos dentro do código)</p>
-                <button id="cadastra" onClick={cachorro}>Cachorro</button>
-                <button id="cadastra" onClick={gato}>Gato</button>
-                <button id="cadastra" onClick={passaro}>Passaro</button>
-                <button id="cadastra" onClick={outroAnimal}>Outro Animal</button>
+                <button id="cadastra" onClick={() => cadastro("cachorro")}>Cachorro</button>
+                <button id="cadastra" onClick={() => cadastro("gato")}>Gato</button>
+                <button id="cadastra" onClick={() => cadastro("passaro")}>Passaro</button>
+                <button id="cadastra" onClick={() => cadastro("Outro Animal")}>Outro Animal</button>
                 <button id="volta" onClick={() => ReactDOM.render(<Animais/>, document.getElementById("root"))}>Voltar</button>
             </div>
             </>, document.getElementById("root"));
     }
 
-    function cachorro(){
-        let a1 = new Cachorro("Valdez", 4);
-        alert(`Parabéns! O cachorro ${a1.nome} foi cadastrado`)
+
+    function cadastro(tipo){
+        if(tipo === "Outro Animal"){
+            tipo = prompt(`Qual é o seu animal?`);
+        }
+
+        let nome = prompt(`Qual o nome do seu ${tipo}?`)
+        
+        if(tipo.toLowerCase() === "cachorro"){
+            let a = new Cachorro(nome);
+            cadastrar(a);
+        } else if(tipo.toLowerCase() === "gato"){
+            let a = new Gato(nome);
+            cadastrar(a);
+        } else if(tipo.toLowerCase() === "passaro"){
+            let a = new Passaro(nome);
+            cadastrar(a);
+        } else {
+            let a = new Animal(nome);
+            cadastrar(a);
+        }
+        
+
+        
     }
 
-    function gato(){
-        let a2 = new Gato("Valdez", 4);
-        alert(`Parabéns! O gato ${a2.nome} foi cadastrado`)
-    }
-
-    function passaro(){
-        let a1 = new Cachorro("Valdez", 4);
-        alert(`Parabéns! O cachorro ${a1.nome} foi cadastrado`)
-    }
-
-    function outroAnimal(){
-        let a1 = new Cachorro("Valdez", 4);
-        alert(`Parabéns! O cachorro ${a1.nome} foi cadastrado`)
-    }
-
-    function listar(){
-
-    }
-
-    function emitirSom(){
-
+    function cadastrar(a){
+        animais.push(a);
+        alert(`${a.nome} cadastrado`);
     }
 
     return(
@@ -141,9 +179,9 @@ function Animais(){
             boxShadow: "0 4px 10px rgba(0,0,0,0.2)"
         }}>
             <h1>Menu</h1>
-            <button id="cadastra" onClick={cadastrar}>Cadastrar animais</button>
+            <button id="cadastra" onClick={menuCadastro}>Cadastrar animais</button>
             <button id="lista" onClick={listar}>Listar Animais</button>
-            <button id="emitirSons" onClick={emitirSom}>Emitir todos os sons</button>
+            <button id="emitirSons" onClick={listarSons}>Emitir todos os sons</button>
         </div>
         </>
     )
