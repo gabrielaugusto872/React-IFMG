@@ -16,7 +16,12 @@
 - [Aula 11 - Arquitetura da Informação e Wireframes](arquitetura-da-informacao-e-wireframes/readme.md)
 - [Aula 12 - Acessibilidade na Web](acessibilidade-na-web/readme.md)
 - [Aula 13 - Validação de Protótipos e Testes de Usabilidade](validacao-e-testes-de-usabilidade/readme.md)
+
+## Módulo 03 - Programação e Orientação a Objetos (POO)
 - [Aula 15 - Fundamentos de Programação Orientada a Objetos](fundamentos-de-programação-orientada-a-objetos/readme.md)
+- [Aula 16 - Criando e Instanciando Classes](criando-e-instanciando-classes/readme.md)
+- [Aula 17 - Encapsulamento e Métodos de Instância](encapsulamento-e-metodos-de-instancia/readme.md)
+- [Aula 18 - Herança e Polimorfismo](heranca-e-polimorfismo/readme.md)
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)
