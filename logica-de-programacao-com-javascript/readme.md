@@ -22,6 +22,7 @@
 - [Aula 16 - Criando e Instanciando Classes](criando-e-instanciando-classes/readme.md)
 - [Aula 17 - Encapsulamento e Métodos de Instância](encapsulamento-e-metodos-de-instancia/readme.md)
 - [Aula 18 - Herança e Polimorfismo](heranca-e-polimorfismo/readme.md)
+- [Aula 19 - Composição e Associação de Objetos](composicao-e-associacao-de-objetos/readme.md)
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)
