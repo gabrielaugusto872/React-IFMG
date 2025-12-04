@@ -25,5 +25,9 @@
 - [Aula 19 - Composição e Associação de Objetos](composicao-e-associacao-de-objetos/readme.md)
 - [Aula 20 - Tratamento de Exceções em POO](tratamento-de-execoes-em-poo/readme.md)
 
+## Módulo 04 - HTML + CSS
+- [Aula 21 - Estruturação de Documentos HTML](estruturacao-de-documentos-html/readme.md)
+
+
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)
