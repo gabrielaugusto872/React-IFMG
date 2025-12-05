@@ -3,7 +3,6 @@
 ### Códigos
 
 - [Arquivo Index](codigos/index.html)
-- [Script](codigos/script.js)
 
 <!-- ### Exercícios -->
 
