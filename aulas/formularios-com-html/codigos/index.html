@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulga Atrás da Orelha</title>
+    <title>Formulários com HTML</title>
 </head>
 <body>
+    <header>
+        <h2>Testando Entradas de Dados</h2>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Digite o seu Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome"/><br>
+            
+            <h3>Qual a matéria você mais gosta?</h3>
+            <input type="radio" id="html" name="materia" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" name="materia" id="css" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="materia" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+
+            <h3>Qual é o melhor turno para estudar?</h3>
+            <input type="radio" name="turno" id="manha" value="manha">
+            <label for="manha">Manhã</label>
+            <input type="radio" name="turno" id="tarde" value="tarde">
+            <label for="tarde">Tarde</label>
+            <input type="radio" name="turno" id="noite" value="noite">
+            <label for="noite">Noite</label>
+
+            <h3>Quais países de língua portuguesa você gostaria de conhecer?</h3>
+            <input type="checkbox" name="pais1" id="pais1" value="Angola">
+            <label for="pais1">Angola</label><br>
+            <input type="checkbox" name="pais2" id="pais2" value="Cabo Verde">
+            <label for="pais2">Cabo Verde</label><br>
+            <input type="checkbox" name="pais3" id="pais3" value="Portugal">
+            <label for="pais3">Portugal</label><br>
+        </form>
+    </main>
     
 </body>
 </html>
