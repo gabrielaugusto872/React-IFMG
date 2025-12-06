@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Aula 21</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+    <nav>  
+        <a href="#dados">Dados Pessoais</a>
+        <a href="#hobbies">Preferências e Hobbies</a>
+        <a href="#mensagem">Mensagem</a>
+        <a href="#enviar">Enviar</a>
+    </nav>
+    
+    <main>
+        <div id="dadosPessoais">
+            <h4 id="dados">Dados Pessoais</h4>
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome...">
+            <p></p>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" pattern="[a-z0-9,_%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" nome="email" placeholder="email@exemplo.com">
+            <p></p>
+
+            <label for="nascimento">Data de Nascimento:</label><br>
+            <input type="date" name="nascimento" id="nascimento">
+            <p></p>
+
+            <label for="genero">Gênero:</label><br>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" name="genero" id="feminino" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" name="genero" id="outros" value="outros">
+            <label for="outros">Outros</label>
+            <p></p>
+
+            <label for="foto">Foto de perfil:</label><br>
+            <input type="file" name="foto" id="foto">
+            <p></p>
+            <p></p><br>
+            
+        </div>
+
+        <div id="hobbies">
+            <h4>Preferências e Hobbies</h4>
+
+            <label for="escolha">Escolha seus hobbies:</label><br>
+            <input type="checkbox" name="escolha" id="leitura" value="leitura">
+            <label for="leitura">Leitura</label><br>
+            <input type="checkbox" name="escolha" id="musica" value="musica">
+            <label for="musica">Música</label><br>
+            <input type="checkbox" name="escolha" id="esporte" value="esporte">
+            <label for="esporte">Esportes</label><br>
+            <input type="checkbox" name="escolha" id="jogos" value="jogos">
+            <label for="jogos">Jogos</label>
+            <p></p>
+
+            <label for="cor">Cor Favorita:</label><br>
+            <input type="color" name="cor" id="cor">
+            <p></p>
+
+            <label for="idioma">Idioma que mais usa:</label><br>
+            <select name="idioma" id="idioma">
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+            </select>
+            <p></p>
+            <br>
+        </div>
+
+        <div id="mensagem">
+            <h4>Mensagem</h4>
+
+            <label for="sobre">Fale um pouco sobre você:</label><br>
+            <textarea name="sobre" id="sobre" placeholder="Digite aqui..." rows="8" cols="40"></textarea>
+        </div>
+        
+    </main>
+</body>
+</html>
