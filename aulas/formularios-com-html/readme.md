@@ -3,7 +3,12 @@
 ### Códigos
 
 - [Arquivo Index](codigos/index.html)
+- [Meu Site (em desenvolvimento)](meuSite.html)
 
-<!-- ### Exercícios -->
+### Exercícios
+
+- [Exercicio Aula 21](exercicios/index.html)
+
+
 
 
