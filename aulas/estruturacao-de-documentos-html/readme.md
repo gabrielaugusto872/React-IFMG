@@ -4,6 +4,7 @@
 
 - [Arquivo Index](codigos/index.html)
 
-<!-- ### Exercícios -->
+### Exercícios
 
+- [Exercicio Aula 20](exercicios/index.html)
 
