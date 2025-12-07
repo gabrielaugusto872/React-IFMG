@@ -1,3 +1,3 @@
 # FrontEnd Com React - IFMG Ibirité
 
-- [Lógica de Programação com JavaScript](logica-de-programacao-com-javascript/readme.md)
+- [Lógica de Programação com JavaScript](aulas/readme.md)
