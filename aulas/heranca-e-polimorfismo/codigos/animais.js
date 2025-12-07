@@ -2,9 +2,11 @@ let animais = [];
 
 class Animal{
     #nome;
+    #patas;
 
-    constructor(nome){
+    constructor(nome, patas){
         this.#nome = nome;
+        this.#patas = patas;
     }
 
     emitirSom(){
@@ -18,8 +20,8 @@ class Animal{
 }
 
 class Cachorro extends Animal{
-    constructor(nome){
-        super(nome);
+    constructor(nome, patas){
+        super(nome, patas);
     }
 
     emitirSom(){
@@ -28,8 +30,8 @@ class Cachorro extends Animal{
 }
 
 class Gato extends Animal{
-    constructor(nome){
-        super(nome);
+    constructor(nome, patas){
+        super(nome, patas);
     }
 
     emitirSom(){
@@ -38,8 +40,8 @@ class Gato extends Animal{
 }
 
 class Passaro extends Animal{
-    constructor(nome){
-        super(nome);
+    constructor(nome, patas){
+        super(nome, patas);
     }
 
     emitirSom(){

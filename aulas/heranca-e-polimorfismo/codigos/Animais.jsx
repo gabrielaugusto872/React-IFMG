@@ -5,54 +5,51 @@ function Animais(){
 
     class Animal{
         #nome;
+        #patas;
 
-        constructor(nome){
+        constructor(nome, patas){
             this.#nome = nome;
+            this.#patas = patas;
         }
 
         emitirSom(){
-            return "Som genérico";
+            console.log("Som genérico");
         }
 
         get nome(){
             return this.#nome;
         }
-    
+   
     }
 
     class Cachorro extends Animal{
-        constructor(nome){
-            super(nome);
+        constructor(nome, patas){
+            super(nome, patas);
         }
 
         emitirSom(){
-            return "Au Au...";
+            console.log("Au Au...")
         }
     }
 
     class Gato extends Animal{
-        constructor(nome){
-            super(nome);
+        constructor(nome, patas){
+            super(nome, patas);
         }
 
         emitirSom(){
-            return "Miau...";
+            console.log("Miau...")
         }
     }
 
     class Passaro extends Animal{
-        constructor(nome){
-            super(nome);
+        constructor(nome, patas){
+            super(nome, patas);
         }
 
         emitirSom(){
             return "Fiu Fiu Fiu...";
         }
-    }
-
-    function cadastrar(a){
-        animais.push(a);
-        console.log(`${a.nome} cadastrado`)
     }
 
     function listar(){
@@ -135,28 +132,32 @@ function Animais(){
 
 
     function cadastro(tipo){
+        let nome, pes;
         if(tipo === "Outro Animal"){
             tipo = prompt(`Qual é o seu animal?`);
+            nome = prompt(`Qual o nome do(a) seu(sua) ${tipo}?`)
+            pes = prompt(`Quantas patas um(a) ${tipo} tem?`)
+        } else {
+            nome = prompt(`Qual o nome do seu ${tipo}?`)
         }
+        
+        
+        
 
-        let nome = prompt(`Qual o nome do seu ${tipo}?`)
         
         if(tipo.toLowerCase() === "cachorro"){
-            let a = new Cachorro(nome);
+            let a = new Cachorro(nome, "4");
             cadastrar(a);
         } else if(tipo.toLowerCase() === "gato"){
-            let a = new Gato(nome);
+            let a = new Gato(nome, "4");
             cadastrar(a);
         } else if(tipo.toLowerCase() === "passaro"){
-            let a = new Passaro(nome);
+            let a = new Passaro(nome, "2");
             cadastrar(a);
         } else {
-            let a = new Animal(nome);
+            let a = new Animal(nome, pes);
             cadastrar(a);
         }
-        
-
-        
     }
 
     function cadastrar(a){
