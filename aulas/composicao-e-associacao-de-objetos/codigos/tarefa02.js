@@ -29,7 +29,7 @@ class Empresa{
             console.log("Nenhum departamento cadastrado!");
             return;
         }
-        console.log("Departamentos: ");
+        console.log(`Departamentos da empresa ${this.nome}: `);
         for(let i=0;i<this.#departamentos.length;i++){
             console.log(`- ${this.#departamentos[i].nome}`)
         }
