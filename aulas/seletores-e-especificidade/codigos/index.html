@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seletores e Especificidade</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Parágrafo nível 1</h1>
+    <p id="texto1">
+        Esse é um parágrafo. No texto possui um
+        <span>element span</span> e um
+        <a href="https://example.com">link</a>.
+    </p>
+    <p id="texto2">
+        Esse é um segundo parágrafo com um
+        elemento <em>enfatizado</em>.
+    </p>
+    <ul>
+        <li>Item <span class="destaque">um</span></li>
+        <li>Item dois</li>
+        <li>Item <em>três</em></li>
+    </ul>
+    <p><span class="destaque">SPANZADA</span></p>
     
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
 </body>
 </html>

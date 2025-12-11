@@ -7,7 +7,7 @@
 
 ### Exercícios
 
-- [Exercicio Aula 21](exercicios/index.html)
+- [Exercicio Aula 22](exercicios/index.html)
 
 
 

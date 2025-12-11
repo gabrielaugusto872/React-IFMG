@@ -1,0 +1,26 @@
+p{
+    color: darkblue;
+    font-family: arial;
+    text-align: center;
+}
+
+#texto1 {
+    color: red;
+}
+
+#texto2{
+    color: coral;
+}
+
+li {
+    color: green;
+    text-align: center;
+}
+
+.destaque {
+    color: black;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+}
