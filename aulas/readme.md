@@ -27,7 +27,8 @@
 
 ## Módulo 04 - HTML + CSS
 - [Aula 21 - Estruturação de Documentos HTML](estruturacao-de-documentos-html/readme.md)
--[Aula 22 - Estilização com CSS](formularios-com-html/readme.md)
+- [Aula 22 - Estilização com CSS](formularios-com-html/readme.md)
+- [Aula 23 - Seletores e Especificidade](seletores-e-especificidade/reade.md)
 
 
 ## Módulo 08 - Git
