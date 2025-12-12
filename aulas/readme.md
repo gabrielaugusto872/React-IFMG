@@ -29,7 +29,7 @@
 - [Aula 21 - Estruturação de Documentos HTML](estruturacao-de-documentos-html/readme.md)
 - [Aula 22 - Estilização com CSS](formularios-com-html/readme.md)
 - [Aula 23 - Seletores e Especificidade](seletores-e-especificidade/reade.md)
-
+- [Aula 24 - Flexbox em CSS](flexbox-em-css/readme.md)
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)
