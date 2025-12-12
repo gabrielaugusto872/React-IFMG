@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+header, nav {
+    text-align: center;
+}
+
+nav {
+    margin: 50px;
+}
+
+#imgp {
+    width: 300px;
+}
+
+h1 {
+    color: rgb(31, 110, 0);
+    font-size: 58px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+h4 {
+    color: rgb(151, 1, 14);
+}
+
+.navegacao {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navegacao a {
+    margin: 1px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.formulario {
+    background-color: aqua;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.formulario [type="submit"] {
+    
+}

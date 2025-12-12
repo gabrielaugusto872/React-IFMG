@@ -1,0 +1,15 @@
+.container {
+    display: inline-flex;
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container div {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+
