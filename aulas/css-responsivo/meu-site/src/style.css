@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .container {
     display: grid;
     grid-template-areas: 
@@ -46,6 +49,7 @@
 }
 
 .container > footer {
+    padding: 20px;
     text-align: center;
 }
 
