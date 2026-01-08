@@ -27,7 +27,7 @@ button:hover{
     transform: scale(1.1);
 }
 
-div#animation{
+div#animation{ 
     width: 100px;
     height: 100px;
     background-color: red;

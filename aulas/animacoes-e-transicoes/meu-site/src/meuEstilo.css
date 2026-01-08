@@ -33,6 +33,19 @@
     font-size: 58px;
 }
 
+span#pulga{
+    color: green;
+    position: absolute;
+    animation: myAnimation 3s 2s infinite;
+}
+
+@keyframes myAnimation {
+    0%   { transform: translate(0, 0);}
+    20%  { transform: translatey(-50px); color: black;}
+    40% { transform: translate(0,0);}
+    100% { transform: translate(0,0);}
+}
+
 .container > nav {
     display: flex;
     justify-content: center;
