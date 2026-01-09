@@ -11,7 +11,7 @@ nav {
 }
 
 #imgp {
-    width: 200px;
+    width: 300px;
 }
 
 h1 {
@@ -44,10 +44,6 @@ h4 {
 
 .formulario {
     background-color: aqua;
-    font-size: 24px;
-    justify-content: center;
+    font-size: 24px;justify-content: center;
 }
 
-.formulario [type="submit"] {
-    
-}
