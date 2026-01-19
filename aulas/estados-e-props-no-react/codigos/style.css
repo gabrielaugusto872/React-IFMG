@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-rows: 1fr;
+    gap: 3px;
+    padding: 5px;
+}
+
+.container > header, nav, main {
+    text-align: center;
+    padding: 10px;
+}
+
+.container > footer {
+    text-align: end;
+    padding: 10px;
+    background-color: antiquewhite;
+}

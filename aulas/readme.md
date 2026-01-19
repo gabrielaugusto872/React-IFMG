@@ -29,7 +29,7 @@
 ## Módulo 04 - HTML + CSS
 - [Aula 21 - Estruturação de Documentos HTML](estruturacao-de-documentos-html/readme.md)
 - [Aula 22 - Estilização com CSS](formularios-com-html/readme.md)
-- [Aula 23 - Seletores e Especificidade](seletores-e-especificidade/reade.md)
+- [Aula 23 - Seletores e Especificidade](seletores-e-especificidade/readme.md)
 - [Aula 24 - Flexbox em CSS](flexbox-em-css/readme.md)
 - [Aula 25 - Grid em CSS](grid-em-css/readme.md)
 - [Aula 26 - Animações e Transições](animacoes-e-transicoes/readme.md)
