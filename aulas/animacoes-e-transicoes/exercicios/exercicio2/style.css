@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.container .loader{
+    width: 80px;
+    height: 80px;
+    border: 4px solid #0055FF;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation-name: myLoader;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes myLoader{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
