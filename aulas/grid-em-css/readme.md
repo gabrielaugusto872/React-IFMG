@@ -3,7 +3,7 @@
 ### Códigos
 
 - [Arquivo Index](codigos/index.html)
-- [Arquivo CSS](codigos)
+- [Arquivo CSS](codigos/style.css)
 
 ### Meu Site (em desenvolvimento)
 
