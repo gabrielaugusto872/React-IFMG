@@ -33,7 +33,7 @@
 - [Aula 24 - Flexbox em CSS](flexbox-em-css/readme.md)
 - [Aula 25 - Grid em CSS](grid-em-css/readme.md)
 - [Aula 26 - Animações e Transições](animacoes-e-transicoes/readme.md)
-- [Aula 27 - Pré-processadores CSS: SASS](pre-procesadores-css/readme.md)
+- [Aula 27 - Pré-processadores CSS: SASS](pre-processadores-css/readme.md)
 - [Aula 28 - Estilização em Componentes React](estilização-em-componentes-react/readme.md)
 - [Aula 29 - Fundamentos do React](fundamentos-do-react/readme.md)
 
