@@ -1,0 +1,37 @@
+body { 
+    background-color: oklch(20.5% 0 0);
+}
+.container {
+    display: flex;
+    gap: 10px; /* Espaço entre os items */
+    /* height: 600px; */
+    background-color: oklch(40.1% 0.17 325.612);
+
+    flex-direction: row; /* Direção dos items */
+    flex-wrap: wrap; /* Quebra a linha */
+    flex-flow: column wrap ; /* Direção e quebra de linha */
+
+    justify-content: center; /* Alinhar as divs verticalmente */
+    align-items: center; /* Alinhar as divs horizontalmente */
+
+    
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: oklch(39.8% 0.195 277.366);
+}
+
+.item-3 {
+    flex-grow: 1; /* Divide o espaço sobrado */
+    flex-shrink: 3; /* Diminui */
+    flex-basis: 2; /* Define o tamanho */
+
+    flex: "grow" "shrink" "basis"; /* Mistura os 3 */
+
+    align-self: center; /* Alinha apenas ele verticalmente */
+
+    order: 1; /* Define a ordem */
+
+}
