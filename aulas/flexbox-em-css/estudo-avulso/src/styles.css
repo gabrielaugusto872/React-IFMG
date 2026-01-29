@@ -32,6 +32,6 @@ body {
 
     align-self: center; /* Alinha apenas ele verticalmente */
 
-    order: 1; /* Define a ordem */
+    order: 1; /* Define a ordem . Default: 0*/
 
 }
