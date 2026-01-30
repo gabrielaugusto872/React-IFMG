@@ -1,3 +1,4 @@
+import { BrowserRouter} from 'react-router-dom';
 import Header from './body/Header'
 import Nav from './body/Nav'
 import Main from './body/Main'
@@ -10,7 +11,10 @@ function App() {
   return (
     <div className="container">
       <Header/>
-      <Nav/>
+      <BrowserRouter>
+        <Nav/>
+      </BrowserRouter>
+      
       <Main/>
       <Footer/>
     </div>
