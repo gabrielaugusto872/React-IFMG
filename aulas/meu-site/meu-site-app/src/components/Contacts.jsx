@@ -1,6 +1,9 @@
 function Contacts (){
     return (
-        <h1>Página de Contatos</h1>
+        <main>
+            <p>Página de Contatos</p>
+        </main>
+        
     )
 }
 

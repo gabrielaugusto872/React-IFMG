@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-            <h5>Rodapé</h5>
+            <h5>© 2026 Gabriel Augusto. Todos os direitos reservados.</h5>
         </footer>
     )
 }
