@@ -1,13 +1,18 @@
 :root {
-    --background-color: #234C6A;
+    --background-color: #1B3C53;
     --primary-color: #000000;
+    --secundary-color: #D2C1B6;
+    --task-color: #234C6A;
+    --font-primary: "Montserrat";
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+body{
     background-color: var(--background-color);
 }
 
@@ -24,16 +29,67 @@
     justify-content: center;
     margin: 30px auto 50px;
 
-    font: bold 43px "Montserrat", sans-serif;
+    font: bold 43px var(--font-primary), sans-serif;
 }
 
 .task {
+    display: grid;
+    grid-template-areas:
+    "titulos check delete"
+    "status check delete";
+    grid-template-columns: 1fr 50px 50px;
 
     margin: 10px 15px;
-    font: 15px "Montserrat", sans-serif;
+    font: 15px var(--font-primary), sans-serif;
     padding: 10px;
     width: 1000px;
 
     border: #000000 solid;
     border-radius: 10px;
+    background-color: var(--task-color);
+}
+
+.titulos {
+    grid-area: titulos;
+}
+
+.stats {
+    grid-area: status;
+}
+
+.check {
+    grid-area: check;
+    accent-color: green;
+    color: green;
+}
+
+.delete {
+    grid-area: delete;
+    width: 40px;
+    height: 40px;
+
+    font-size: 30px;
+    border: rgb(0, 0, 0) solid 4.5px;
+    border-radius: 2px;
+
+    transition: color 1s;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+.newTask {
+    background-color: var(--secundary-color);
+    border: #000000 solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    font: 16px var(--font-primary), sans-serif;
+}
+
+.newTask::placeholder {
+  font-family: var(--font-primary), sans-serif;
+  font-size: 16px;
 }
