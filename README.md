@@ -1,3 +1,4 @@
 # FrontEnd Com React - IFMG Ibirité
 
-- [Lógica de Programação com JavaScript](aulas/readme.md)
+- [Aulas](aulas/readme.md)
+- [Gerenciador de Tarefas - Módulo React](gerenciador-de-tarefas/readme.md)

@@ -1,0 +1,40 @@
+.card {
+    display: grid;
+    grid-template-areas: 
+    "imagem descricao";
+
+    padding: 10px;
+
+    border: 5px solid;
+    border-color: rgb(206, 16, 16);
+    border-radius: 10px;
+
+    animation: corFundo 3s linear infinite alternate-reverse;
+}
+
+@keyframes corFundo {
+    25% { background-color: blue;}
+    50% { background-color: rgb(42, 165, 79);}
+}
+
+.imagem{
+    grid-area: imagem;
+    width: 250px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.titulo {
+    margin: 0;
+    grid-area: titulo;
+}
+
+.desc {
+    grid-area: desc;
+}

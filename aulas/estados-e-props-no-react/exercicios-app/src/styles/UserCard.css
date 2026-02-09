@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    background-color: rgb(59, 59, 59);
+    margin-top: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "imagem text status";
+
+    grid-template-columns: 1fr 1fr 1.5fr;
+    column-gap: 20px;
+
+    place-items: center;
+
+    border: 2px solid rgb(102, 207, 4);
+    border-radius: 50px;
+
+    width: 500px;
+    padding: 30px;
+
+}
+
+.text{
+    display: flex;
+    
+    grid-area: text;
+
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 20px;
+    
+}
+
+.imagem{
+    width: 150px;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.cargo {
+    grid-area: cargo;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.status{
+    grid-area: status;
+
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    
+    
+
+}

@@ -7,6 +7,5 @@
 
 ### Exercícios
 
-- [Criar Flexbox do Slide - HTML](exercicios/index.html)
-- [Criar Flexbox do Slide - CSS](exercicios/src/style.css)
-
+- [User Card - Props](exercicios-app/src/components/Usercard.jsx)
+- [Lâmpada - Estado](exercicios-app/src/components/lampada.jsx)

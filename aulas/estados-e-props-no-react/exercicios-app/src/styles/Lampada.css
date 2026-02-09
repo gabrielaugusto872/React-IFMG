@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cor {
+    display: flex;
+    justify-content: center;
+    
+    width: 100px;
+    height: 200px;
+    
+    border: solid rgb(255, 255, 255);
+    border-radius: 5px ;
+    
+    margin: 100px auto;
+    place-items: center;
+
+}
+
+button{
+    width: 80px;
+    background-color: gray;
+    font-size: 20px;
+}
