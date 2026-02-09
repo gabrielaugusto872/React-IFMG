@@ -1,16 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
+import { use, useState } from "react";
+import Task from "./TaskItem"
+import '../styles/App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [tasks, setTasks] = useState([]);
+  const [novaTarefa, setNovaTarefa] = useState("");
+
+  function adicionarTarefa(){
+    i
+  }
 
   return (
     <div className="container">
-      <h1>Gerenciador de Tarefas</h1>
+      <h1 className="title">Gerenciador de Tarefas</h1>
+
+      {tasks.map((task) => (
+        <Task
+          key={task.id}
+          titulo={task.titulo}
+          status={task.status}
+        />
+      ))}
     </div>
-  )
+  );
 }
 
 export default App
