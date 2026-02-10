@@ -1,6 +1,5 @@
 import TaskList from './TaskList';
 import Header from './Header';
-import TaskForm from './TaskForm';
 import '../styles/App.css'
 
 function App() {

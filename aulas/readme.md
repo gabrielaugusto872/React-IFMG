@@ -39,6 +39,8 @@
 ## Módulo 05 - Desenvolvimento com React
 - [Aula 29 - Fundamentos do React](fundamentos-do-react/readme.md)
 - [Aula 30 - Estados e Props no React](estados-e-props-no-react/readme.md)
+- [Aula 31 - Hooks: useEffect e Ciclo de Vida](hooks-useeffect-e-ciclo-de-vida/readme.md)
+- [Aula 32 - Gerenciamento de Estado Global](gerenciamento-de-estado-global/readme.md) 
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)
