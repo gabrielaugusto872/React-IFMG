@@ -4,11 +4,14 @@ import Usuario from './components/Usuario'
 import Logout from './components/Logout'
 import BotaoSeletor from './components/BotaoSeletor'
 import SelectTheme from './components/SelectTheme'
+import ListaDeProdutos from './components/ListaDeProdutos'
+import Carrinho from './components/Carrinho';
 
 function App() {
   return (
     <>
-      <SelectTheme />
+      <ListaDeProdutos />
+      <Carrinho />
     </>
   )
 }

@@ -1,9 +1,9 @@
-function TaskItem({ titulo, status, onDelete, onChangeStatus }) {
+function TaskItem({ id, titulo, status, onDelete, onChangeStatus }) {
   const checado = status === "Concluído";
 
   const mudanca = () => {
     const novoStatus = checado ? "Pendente" : "Concluído";
-    onChangeStatus(novoStatus);
+    onChangeStatus(id, novoStatus);
   };
 
   return (
@@ -24,7 +24,7 @@ function TaskItem({ titulo, status, onDelete, onChangeStatus }) {
         onChange={mudanca}
       />
 
-      <button className="delete" onClick={onDelete}>X</button>
+      <button className="delete" onClick={() => onDelete(id)}>X</button>
     </div>
   );
 }
