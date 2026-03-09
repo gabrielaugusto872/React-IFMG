@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import Evento from './components/Evento'
+import Login from './components/Login'
+import CadastroEventoProfissional from './components/CadastroEventoProfissional'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Evento/>
+      <CadastroEventoProfissional/>
     </>
   )
 }

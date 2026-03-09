@@ -40,7 +40,10 @@
 - [Aula 29 - Fundamentos do React](fundamentos-do-react/readme.md)
 - [Aula 30 - Estados e Props no React](estados-e-props-no-react/readme.md)
 - [Aula 31 - Hooks: useEffect e Ciclo de Vida](hooks-useeffect-e-ciclo-de-vida/readme.md)
-- [Aula 32 - Gerenciamento de Estado Global](gerenciamento-de-estado-global/readme.md) 
+- [Aula 32 - Gerenciamento de Estado Global](gerenciamento-de-estado-global/readme.md)
+- [Aula 33 - Roteamento com React Router](roteamento-com-react-route/readme.md)
+- [Aula 34 - Formulários e Validação em React](formularios-e-validacao-em-react/readme.md)
+- [Aula 35 - Componentes de Alta Ordem (HOC) e Render Props](componentes-de-alta-ordem/readme.md)
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)

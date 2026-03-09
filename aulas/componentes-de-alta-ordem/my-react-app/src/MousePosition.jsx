@@ -1,0 +1,14 @@
+class Mouse extends React.Component {
+    state = {x:0, y:0};
+    handleMouseMove = e => this.setState({x:e.clientX, y:e.clientY});
+
+    render(){
+        return(
+            <div onMouseMove={this.handleMouseMove}>
+                {this.props.render(this.state)}
+            </div>
+        );
+    }
+}
+
+<Mouse render={m => <h1>Posição: ({m.x}, {m})</h1>} />

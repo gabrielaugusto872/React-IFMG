@@ -1,4 +1,11 @@
-import { Link, Outlet, useParams } from "react-router-dom";
+import { NavLink, Outlet, useParams } from "react-router-dom";
+
+const navLinkStyles = ({isActive}) => ({
+    color: isActive ? '#0014c7' : '#007bff' ,
+    textDecoration: isActive ? 'none' : 'underline',
+    fontWeight: isActive ? 'bold' : 'normal',
+    padding: '5px 10px'
+})
 
 function Info() {
     const {nome} = useParams();
@@ -6,9 +13,9 @@ function Info() {
         <>
             <h1>Escolha o seu Usuário</h1>
             <nav style={{marginBottom:"20px"}}>
-                <Link to="/customer/Emil">Emil</Link> | {" "}
-                <Link to="/customer/Tobias">Tobias</Link> | {" "}
-                <Link to="/customer/Linus">Linus</Link>
+                <NavLink to="customer/Emil" style={navLinkStyles}>Emil</NavLink> | {" "}
+                <NavLink to="customer/Tobias" style={navLinkStyles}>Tobias</NavLink> | {" "}
+                <NavLink to="customer/Linus" style={navLinkStyles}>Linus</NavLink>
             </nav>
             {nome && <h1>Olá, {nome}!</h1>}
         </>

@@ -7,11 +7,12 @@ import SelectTheme from './components/SelectTheme'
 import ListaDeProdutos from './components/ListaDeProdutos'
 import Carrinho from './components/Carrinho';
 
+
 function App() {
   return (
     <>
-      <ListaDeProdutos />
-      <Carrinho />
+        <ListaDeProdutos />
+        <Carrinho />
     </>
   )
 }
