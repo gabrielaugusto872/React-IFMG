@@ -44,6 +44,17 @@
 - [Aula 33 - Roteamento com React Router](roteamento-com-react-route/readme.md)
 - [Aula 34 - Formulários e Validação em React](formularios-e-validacao-em-react/readme.md)
 - [Aula 35 - Componentes de Alta Ordem (HOC) e Render Props](componentes-de-alta-ordem/readme.md)
+- [Aula 36 - Testes em Componentes React](testes-em-componentes-react/readme.md)
+- [Aula 37 - Perfomance e Otimização](perfomance-e-otimizacao/readme.md)
+- [Aula 38 - Deploy de Aplicações React](deploy-de-aplicacoes-react/readme.md)
+
+## Módulo 06 - Web Services
+
+
+
+## Módulo 07 - Soft Skills
+
+
 
 ## Módulo 08 - Git
 - [Aula 46 - Introdução ao Git e Controle de Versão](introdução-ao-git/readme.md)

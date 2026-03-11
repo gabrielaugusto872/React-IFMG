@@ -1,3 +1,5 @@
+import React from "react";
+
 function TaskItem({ id, titulo, status, onDelete, onChangeStatus }) {
   const checado = status === "Concluído";
 
@@ -29,4 +31,4 @@ function TaskItem({ id, titulo, status, onDelete, onChangeStatus }) {
   );
 }
 
-export default TaskItem;
+export default React.memo(TaskItem);

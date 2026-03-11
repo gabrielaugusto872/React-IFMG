@@ -29,7 +29,7 @@ function TaskForm({ onAdd }){
                 <textarea {...register("descricao")} placeholder="Descrição da tarefa" className="newTask" />{errors.descricao && <p className="erro">{errors.descricao.message}</p>} 
                 <br />
                 
-                <select {...register("categoria")}> 
+                <select data-testid="task-select" {...register("categoria")}> 
                     <option value="">Selecione a categoria da tarefa</option>
                     <option value="Trabalho">Trabalho</option>
                     <option value="Pessoal">Pessoal</option>
