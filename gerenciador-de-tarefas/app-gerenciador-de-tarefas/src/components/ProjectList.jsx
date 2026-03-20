@@ -4,7 +4,7 @@ function ProjectList(){
     const projetos = [
         {id: 1, titulo: "Gerenciador de Tarefas"},
         {id: 2, titulo: "Calculadora"},
-        {id: 3, titulo: "Sala de espera"}
+        {id: 3, titulo: "Sala de Espera"}
     ];
 
     const navLinkStyles = ({isActive}) => ({
