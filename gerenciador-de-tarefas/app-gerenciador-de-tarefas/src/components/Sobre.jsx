@@ -1,8 +1,8 @@
 function Sobre(){
     return(
         <div className="sobre">
-            <h1>Sobre</h1>
-            <p>Sobre o App
+            <h1 className="sobre-titulo">Sobre</h1>
+            <p className="sobre-texto">Sobre o App
 
                 TaskMaster é um gerenciador de tarefas simples e eficiente, criado para organizar suas atividades diárias e acompanhar o progresso de cada projeto. Com ele, você pode:
 
