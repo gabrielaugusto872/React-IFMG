@@ -33,7 +33,7 @@ function Rota(){
     
 
     return (
-        <>
+        <div className='nav'>
             <BrowserRouter>
                 <nav style={{ marginBottom: '20px' }}>
                     <NavLink to="/" style={navLinkStyles}>Lista de Tarefas do dia</NavLink> | {" "}
@@ -57,7 +57,7 @@ function Rota(){
 
                 </Routes>
             </BrowserRouter>
-        </>
+        </div>
     )
 }
 

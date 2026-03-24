@@ -31,6 +31,12 @@ body{
     font: bold 43px var(--font-primary), sans-serif;
 }
 
+.nav{
+  display: grid;
+  justify-content: center;
+  margin: 10 px;
+}
+
 .task {
     display: grid;
     grid-template-areas:
